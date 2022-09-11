@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="largescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 599px)" href="smallscreen.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+<meta charset="UTF-8">
+
+    <style>
+        body {margin:0;}
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            background-color: #6498fe;
+            bottom: 0;
+            width: 100%;
+        }
+        li {
+            float: left;
+            width: 20%;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active) {
+            background-color:#1565c0;
+        }
+        .active {
+            background-color: #1565c0;
+        }
+
+
+    </style>
+</head>
+<body>
+<ul>
+   <li> <a class="active" href="index.php">Add item</a></li>
+    <li><a href="freinds.php">Share List</a></li>
+    <li><a href="edit.php" >Edit List</a> </li>
+    <li><a href="profile.php">Profile</a></li>
+
+      <li><a href="logout.php">LogOut</a></li>
+</ul>
+</div>
+</body>
+</html>
